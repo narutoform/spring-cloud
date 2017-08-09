@@ -785,7 +785,7 @@
       <workItem from="1501989135240" duration="1466000" />
       <workItem from="1502070320360" duration="283000" />
       <workItem from="1502251442401" duration="45000" />
-      <workItem from="1502270337848" duration="1479000" />
+      <workItem from="1502270337848" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="springCloud 练习 父类pom：start_parent">
       <created>1502271404672</created>
@@ -798,7 +798,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132157000" />
+    <option name="totallyTimeSpent" value="132299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="1" width="1378" height="743" extended-state="0" />
