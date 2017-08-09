@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/narutoform/springCloudConfig # 公用
+          search-paths: # 每个存储库还可以选择将配置文件存储在子目录中，即指定搜索子目录
+            - foo
+            - bar 
+            # 也可以这样：foo,bar*
+            # 请求的url: http://localhost:20000/foo-chino.yml
+            # 加了这个后就可以搜索子目录下的文件了，原来只能找根目录的

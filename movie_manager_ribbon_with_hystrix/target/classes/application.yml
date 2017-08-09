@@ -1,0 +1,20 @@
+server:
+  port: 8001
+  context-path: /
+spring:
+  application:
+    name: movie_manager_ribbon_with_hystrix
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    enabled: true
+    service-url: 
+      defaultZone: http://root:root@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true
+    home-page-url-path: /ribbon # 它通常用于其他服务的信息目的，以将其用作着陆页。和本身的url路径没关系不影响  context-path: 
+userAdmin:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000

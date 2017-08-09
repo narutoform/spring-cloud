@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager/movie_manager.iml" filepath="$PROJECT_DIR$/../movie_manager/movie_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager_feign/movie_manager_feign.iml" filepath="$PROJECT_DIR$/../movie_manager_feign/movie_manager_feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager_feign_customizing/movie_manager_feign_customizing.iml" filepath="$PROJECT_DIR$/../movie_manager_feign_customizing/movie_manager_feign_customizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager_feign_with_hystrix/movie_manager_feign_with_hystrix.iml" filepath="$PROJECT_DIR$/../movie_manager_feign_with_hystrix/movie_manager_feign_with_hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager_feign_with_hystrix_factory/movie_manager_feign_with_hystrix_factory.iml" filepath="$PROJECT_DIR$/../movie_manager_feign_with_hystrix_factory/movie_manager_feign_with_hystrix_factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager_hystrix_dashboard/movie_manager_hystrix_dashboard.iml" filepath="$PROJECT_DIR$/../movie_manager_hystrix_dashboard/movie_manager_hystrix_dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager_hystrix_turbine/movie_manager_hystrix_turbine.iml" filepath="$PROJECT_DIR$/../movie_manager_hystrix_turbine/movie_manager_hystrix_turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager_ribbon_properties_without_eureka/movie_manager_ribbon_properties_without_eureka.iml" filepath="$PROJECT_DIR$/../movie_manager_ribbon_properties_without_eureka/movie_manager_ribbon_properties_without_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager_ribbon_propertiescustomizing/movie_manager_ribbon_propertiescustomizing.iml" filepath="$PROJECT_DIR$/../movie_manager_ribbon_propertiescustomizing/movie_manager_ribbon_propertiescustomizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../movie_manager_ribbon_with_hystrix/movie_manager_ribbon_with_hystrix.iml" filepath="$PROJECT_DIR$/../movie_manager_ribbon_with_hystrix/movie_manager_ribbon_with_hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_client/start_config_client.iml" filepath="$PROJECT_DIR$/../start_config_client/start_config_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_client_authc/start_config_client_authc.iml" filepath="$PROJECT_DIR$/../start_config_client_authc/start_config_client_authc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_client_eureka/start_config_client_eureka.iml" filepath="$PROJECT_DIR$/../start_config_client_eureka/start_config_client_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_client_refresh/start_config_client_refresh.iml" filepath="$PROJECT_DIR$/../start_config_client_refresh/start_config_client_refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_client_refresh_bus/start_config_client_refresh_bus.iml" filepath="$PROJECT_DIR$/../start_config_client_refresh_bus/start_config_client_refresh_bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_server/start_config_server.iml" filepath="$PROJECT_DIR$/../start_config_server/start_config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_server_authc/start_config_server_authc.iml" filepath="$PROJECT_DIR$/../start_config_server_authc/start_config_server_authc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_server_encrypt/start_config_server_encrypt.iml" filepath="$PROJECT_DIR$/../start_config_server_encrypt/start_config_server_encrypt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_server_encrypt_rsa/start_config_server_encrypt_rsa.iml" filepath="$PROJECT_DIR$/../start_config_server_encrypt_rsa/start_config_server_encrypt_rsa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_config_server_eureka/start_config_server_eureka.iml" filepath="$PROJECT_DIR$/../start_config_server_eureka/start_config_server_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_eureka/start_eureka.iml" filepath="$PROJECT_DIR$/../start_eureka/start_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_eureka_ha/start_eureka_ha.iml" filepath="$PROJECT_DIR$/../start_eureka_ha/start_eureka_ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_getway_sidecar/start_getway_sidecar.iml" filepath="$PROJECT_DIR$/../start_getway_sidecar/start_getway_sidecar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_getway_zuul/start_getway_zuul.iml" filepath="$PROJECT_DIR$/../start_getway_zuul/start_getway_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/start_parent.iml" filepath="$PROJECT_DIR$/start_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user_manager/user_manager.iml" filepath="$PROJECT_DIR$/../user_manager/user_manager.iml" />
+    </modules>
+  </component>
+</project>

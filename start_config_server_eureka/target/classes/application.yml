@@ -1,0 +1,14 @@
+server:
+  port: 20000
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/narutoform/springCloudConfig
+  application:
+    name: springCloudConfig
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://root:root@localhost:10000/eureka

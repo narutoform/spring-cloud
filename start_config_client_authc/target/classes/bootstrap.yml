@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:20000
+      profile: dev
+      label: master
+      username: chinotan
+      password: chinotan # 不用添加任何security的依赖 直接写username和password就好
+  application:
+    name: chinotan

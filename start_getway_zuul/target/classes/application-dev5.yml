@@ -1,0 +1,10 @@
+zuul:
+  prefix: /api
+  stripPrefix: false # 默认为true 注意这里 ，不要写成strip-prefix
+logging:
+  level:
+    com.netflix: debug
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000

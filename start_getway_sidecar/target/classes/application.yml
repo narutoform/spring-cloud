@@ -1,0 +1,15 @@
+server:
+  port: 18000
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://root:root@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true
+    appname: start_getway_sidecar
+sidecar:
+  port: 8060
+  health-uri: http://localhost:8060/health.json
+spring:
+  application:
+    name: start_getway_sidecar

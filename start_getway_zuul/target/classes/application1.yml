@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    userAdmin: /user/** 
+  ignored-services: movieadmin 
+spring:
+  profiles: pro1  
+  
+# 将这个不带‘-’的配置文件写到这里是无法识别的，此文件没用，得奖这些加‘---’写入application.yml里才行

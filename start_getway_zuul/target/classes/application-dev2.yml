@@ -1,0 +1,7 @@
+zuul: # 这个不写也行，zuul会默认转发所有eureka上的serviceId
+  routes:
+    userAdmin: /user/** # http://192.168.1.190:18000/useradmin/user/1 其中userAdmin不能用，得全小写才行
+  ignored-services: movieadmin # 这里也是不能用movieAdmin 得全变小写 这里也可以加 '*' 引号要有
+#spring: # 这个不能加，否则找不到dev2，有applicatio-dev2就够了，不需要加这个，springboot只能识别带‘-’加名称的文件，如application1就不行，在初始化的时候无法加载
+#  profiles: dev2
+  

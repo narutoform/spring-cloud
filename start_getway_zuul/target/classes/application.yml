@@ -1,0 +1,12 @@
+server:
+  port: 18000
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://root:root@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true
+    appname: Start_getway_zuul
+spring:
+  profiles:
+    active: dev5

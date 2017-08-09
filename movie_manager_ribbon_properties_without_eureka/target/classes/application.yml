@@ -1,0 +1,21 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: movieAdmin
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    enabled: true
+    service-url: 
+      defaultZone: http://root:root@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true
+    appname: movieAdmin # 和spring.spring.application.name的效果一样
+ribbon:
+  eureka:
+    enabled: false # 负载均衡是ribbon提供的，vip也是所以得加@LoadBalanced才有vip
+userAdmin:
+  ribbon:
+    listOfServers: localhost:9001

@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/narutoform/springCloudConfig # 公用
+          repos: 
+            complex: https://github.com/narutoform/complex
+            simple: 
+              pattern: simple*/yuki*
+              uri: https://github.com/narutoform/simple
+
+# 和application一样，不过多了功能：如果application不和repos下的simple等匹配的话就访问git.uri的仓库了
+      

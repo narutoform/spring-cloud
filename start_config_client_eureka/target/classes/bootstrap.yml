@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true # 默认是false
+        service-id: springCloudConfig
+      profile: dev
+  application:
+    name: chinotan
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://root:root@localhost:10000/eureka
+    

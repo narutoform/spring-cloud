@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../movie_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../movie_manager_feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../movie_manager_feign_customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../movie_manager_feign_with_hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../movie_manager_feign_with_hystrix_factory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../movie_manager_hystrix_dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../movie_manager_hystrix_turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../movie_manager_ribbon_properties_without_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../movie_manager_ribbon_propertiescustomizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../movie_manager_ribbon_with_hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_client_authc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_client_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_client_refresh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_client_refresh_bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_server_authc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_server_encrypt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_server_encrypt_rsa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_config_server_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_eureka_ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_getway_sidecar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../start_getway_zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../user_manager" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

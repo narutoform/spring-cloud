@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-discovery-eureka-ha" />
+        <module name="movie_manager" />
+        <module name="movie_manager_feign" />
+        <module name="movie_manager_feign_customizing" />
+        <module name="movie_manager_feign_with_hystrix" />
+        <module name="movie_manager_feign_with_hystrix_factory" />
+        <module name="movie_manager_hystrix_dashboard" />
+        <module name="movie_manager_hystrix_turbine" />
+        <module name="movie_manager_ribbon_properties_without_eureka" />
+        <module name="movie_manager_ribbon_propertiescustomizing" />
+        <module name="movie_manager_ribbon_with_hystrix" />
+        <module name="start_config_client" />
+        <module name="start_config_client_authc" />
+        <module name="start_config_client_eureka" />
+        <module name="start_config_client_refresh" />
+        <module name="start_config_client_refresh_bus" />
+        <module name="start_config_server" />
+        <module name="start_config_server_authc" />
+        <module name="start_config_server_encrypt" />
+        <module name="start_config_server_encrypt_rsa" />
+        <module name="start_config_server_eureka" />
+        <module name="start_eureka" />
+        <module name="start_eureka_ha" />
+        <module name="start_getway_sidecar" />
+        <module name="start_getway_zuul" />
+        <module name="user_manager" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-consumer-movie-feign-with-hystrix-hystrix-factory" target="1.8" />
+      <module name="microservice-discovery-eureka-ha" target="1.6" />
+      <module name="movie_manager" target="1.6" />
+      <module name="movie_manager_feign" target="1.6" />
+      <module name="movie_manager_feign_customizing" target="1.6" />
+      <module name="movie_manager_feign_with_hystrix" target="1.6" />
+      <module name="movie_manager_feign_with_hystrix_factory" target="1.8" />
+      <module name="movie_manager_hystrix_dashboard" target="1.6" />
+      <module name="movie_manager_hystrix_turbine" target="1.6" />
+      <module name="movie_manager_ribbon_properties_without_eureka" target="1.6" />
+      <module name="movie_manager_ribbon_propertiescustomizing" target="1.6" />
+      <module name="movie_manager_ribbon_with_hystrix" target="1.6" />
+      <module name="moviemanager_feign_customizing" target="1.6" />
+      <module name="start_config_client" target="1.6" />
+      <module name="start_config_client_authc" target="1.6" />
+      <module name="start_config_client_eureka" target="1.6" />
+      <module name="start_config_client_refresh" target="1.6" />
+      <module name="start_config_client_refresh_bus" target="1.6" />
+      <module name="start_config_server" target="1.6" />
+      <module name="start_config_server_authc" target="1.6" />
+      <module name="start_config_server_encrypt" target="1.6" />
+      <module name="start_config_server_encrypt_rsa" target="1.6" />
+      <module name="start_config_server_eureka" target="1.6" />
+      <module name="start_eureka" target="1.6" />
+      <module name="start_eureka_ha" target="1.6" />
+      <module name="start_getway_sidecar" target="1.6" />
+      <module name="start_getway_zuul" target="1.6" />
+      <module name="start_parent" target="1.6" />
+      <module name="user_manager" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

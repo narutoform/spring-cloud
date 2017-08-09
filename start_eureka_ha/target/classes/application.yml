@@ -1,0 +1,57 @@
+spring:
+  application:
+    name: Eureka-HA
+---
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: root
+server:
+  port: 10001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root@narutoform:10002/eureka,http://root:root@yui:10002/eureka #DS Replicas来显示不太的主机名，要不都是localhost了
+  instance:
+    hostname: chino # 这个感觉可以不写
+    prefer-ip-address: true
+spring:
+  profiles: dev1
+---
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: root
+server:
+  port: 10002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root@chino:10001/eureka,http://root:root@yui:10002/eureka
+  instance:
+    hostname: narutoform
+    prefer-ip-address: true
+spring:
+  profiles: dev2
+---
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: root
+server:
+  port: 10003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:root@chino:10001/eureka,http://root:root@narutoform:10002/eureka
+  instance:
+    hostname: yui
+    prefer-ip-address: true
+spring:
+  profiles: dev3
