@@ -1,0 +1,18 @@
+server:
+  port: 10000
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url: 
+      defaultZone: http://root:root@localhost:10000/eureka
+  server:
+    enable-self-preservation: false # 设为false，关闭自我保护
+    eviction-interval-timer-in-ms: 1000 # 清理间隔（单位毫秒，默认是60*1000）
+security:
+  basic:
+    enabled: true
+  user:
+    password: root
+    name: root
+    

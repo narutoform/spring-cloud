@@ -1,0 +1,5 @@
+server:
+  port: 11000 # http://localhost:11000/hystrix 访问主页路径是这个
+spring:
+  application:
+    name: MovieHystrixDashTable

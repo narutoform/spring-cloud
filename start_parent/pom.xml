@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>../movie_manager</module>
+        <module>../user_manager</module>
+        <module>../start_eureka</module>
+        <module>../movie_manager_feign</module>
+        <module>../movie_manager_ribbon_propertiescustomizing</module>
+        <module>../movie_manager_ribbon_properties_without_eureka</module>
+        <module>../movie_manager_feign_customizing</module>
+        <module>../movie_manager_feign_with_hystrix</module>
+        <module>../movie_manager_feign_with_hystrix_factory</module>
+        <module>../start_eureka_ha</module>
+        <module>../movie_manager_ribbon_with_hystrix</module>
+        <module>../movie_manager_hystrix_dashboard</module>
+        <module>../movie_manager_hystrix_turbine</module>
+        <module>../start_getway_zuul</module>
+        <module>../start_config_server</module>
+        <module>../start_config_client</module>
+        <module>../start_config_server_eureka</module>
+        <module>../start_config_client_eureka</module>
+        <module>../start_config_server_authc</module>
+        <module>../start_config_client_authc</module>
+        <module>../start_config_server_encrypt</module>
+        <module>../start_config_server_encrypt_rsa</module>
+        <module>../start_config_client_refresh</module>
+        <module>../start_config_client_refresh_bus</module>
+        <module>../start_getway_sidecar</module>
+    </modules>
+    <groupId>cn.chinotan</groupId>
+    <artifactId>start_parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.2.RELEASE</version>
+    </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Dalston.SR1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

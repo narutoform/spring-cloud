@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: microservice-consumer-movie-feign-with-hystrix-hystrix-factory
+server:
+  port: 8000
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://root:root@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true
+feign.hystrix.enabled: true
+    

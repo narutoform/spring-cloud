@@ -1,0 +1,17 @@
+server:
+  port: 20000
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/narutoform/springCloudConfig
+encrypt:
+  key-store:
+    location: server.jks
+    secret: naruto # 指定别名条目的密码 -keypass
+    password: chinotan # 指定密钥库的密码 -storepass
+    alias: mytestkey
+  
+  
+# postman访问http://localhost:20000/encrypt 其中post提交的key为你要加密的值，value为空额，e.g. key：chinotandev value: 

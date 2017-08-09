@@ -1,0 +1,1 @@
+keytool -genkeypair -alias mytestkey -keyalg RSA -dname "CN=Web Server,OU=Unit,O=Organization,L=City,S=State,C=US" -keypass naruto -keystore server.jks -storepass chinotan

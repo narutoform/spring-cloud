@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/narutoform/{application}
+# 请求的url: http://localhost:20000/simple-yuki.yml
+# 注意在github中要建立一个和application一样的仓库才行，没有这个仓库的话会报错。e.g. 建立simple仓库，访问simple这个application

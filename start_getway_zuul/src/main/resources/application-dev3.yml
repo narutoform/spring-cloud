@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    abc: 
+      path: /user/**
+      serviceId: userAdmin

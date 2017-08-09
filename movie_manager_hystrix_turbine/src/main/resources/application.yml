@@ -1,0 +1,25 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: hystrix-turbine
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true
+turbine:
+  app-config: movieAdmin,movie_manager_ribbon_with_hystrix
+  aggregator: 
+    clusterConfig: default
+  cluster-name-expression: "'default'"
+  
+  
+  
+#turbine:
+#  aggregator:
+#    clusterConfig: MOVIEADMIN # 全大写 不用加cluster-name-expression
+#  appConfig: movieAdmin #  访问这个http://192.168.1.190:12000/turbine.stream?cluster=MOVIEADMIN
+  
+#turbine.instanceUrlSuffix.MICROSERVICE-CONSUMER-MOVIE-RIBBON-WITH-HYSTRIX2: /ribbon/hystrix.stream  # 当客户端的home-page-url为/ribbon时加这个

@@ -1,0 +1,14 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: movieAdmin
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    enabled: true
+    service-url: 
+      defaultZone: http://root:root@localhost:10000/eureka
+  instance:
+    prefer-ip-address: true
