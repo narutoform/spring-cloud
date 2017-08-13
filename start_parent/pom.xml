@@ -32,6 +32,8 @@
         <module>../start_config_client_refresh_bus</module>
         <module>../start_getway_sidecar</module>
         <module>../user_manager_elasticsearch</module>
+        <module>../user_manager_dubbo_server</module>
+        <module>../user_manager_dubbo_client</module>
     </modules>
     <groupId>cn.chinotan</groupId>
     <artifactId>start_parent</artifactId>
