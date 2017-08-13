@@ -1,0 +1,30 @@
+server:
+  port: 8080
+spring:
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    schema: classpath:schema.sql #这里的: 后不能跟空格
+    data: classpath:data.sql
+    platform: h2
+  jackson:
+    serialization: 
+      fail-on-empty-beans: false #设置FAIL_ON_EMPTY_BEANS属性，告诉Jackson空对象不要抛异常, 在使用了getOne时使用，这里可以删除；
+  application:
+    name: userAdmin
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.217.135:9300 # 默认 9300 是 Java 客户端的端口。9200 是支持 Restful HTTP 的接口
+      repositories:
+        enabled: true # 开启 Elasticsearch 仓库。(默认值:true)
+logging:
+  level: 
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    cn.chinotan: DEBUG

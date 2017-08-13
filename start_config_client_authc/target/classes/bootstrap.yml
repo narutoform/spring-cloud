@@ -5,6 +5,6 @@ spring:
       profile: dev
       label: master
       username: chinotan
-      password: chinotan # 不用添加任何security的依赖 直接写username和password就好
+      password: chinotan # 不用添加任何security的依赖 直接写username和password就好， 和eureka区分开
   application:
     name: chinotan

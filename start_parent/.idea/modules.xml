@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/../start_getway_zuul/start_getway_zuul.iml" filepath="$PROJECT_DIR$/../start_getway_zuul/start_getway_zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/start_parent.iml" filepath="$PROJECT_DIR$/start_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../user_manager/user_manager.iml" filepath="$PROJECT_DIR$/../user_manager/user_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user_manager_elasticsearch/user_manager_elasticsearch.iml" filepath="$PROJECT_DIR$/../user_manager_elasticsearch/user_manager_elasticsearch.iml" />
     </modules>
   </component>
 </project>

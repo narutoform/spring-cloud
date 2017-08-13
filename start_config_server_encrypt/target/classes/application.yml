@@ -8,3 +8,4 @@ spring:
           uri: https://github.com/narutoform/springCloudConfig
 encrypt:
   key: chinotan
+# postman访问http://localhost:20000/encrypt 其中post提交的key为你要加密的值，value为空额，e.g. key：chinotandev value: 

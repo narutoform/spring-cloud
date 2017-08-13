@@ -32,6 +32,7 @@
         <module name="start_getway_sidecar" />
         <module name="start_getway_zuul" />
         <module name="user_manager" />
+        <module name="user_manager_elasticsearch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -64,6 +65,7 @@
       <module name="start_getway_zuul" target="1.6" />
       <module name="start_parent" target="1.6" />
       <module name="user_manager" target="1.6" />
+      <module name="user_manager_elasticsearch" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

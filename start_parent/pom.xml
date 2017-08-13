@@ -31,6 +31,7 @@
         <module>../start_config_client_refresh</module>
         <module>../start_config_client_refresh_bus</module>
         <module>../start_getway_sidecar</module>
+        <module>../user_manager_elasticsearch</module>
     </modules>
     <groupId>cn.chinotan</groupId>
     <artifactId>start_parent</artifactId>

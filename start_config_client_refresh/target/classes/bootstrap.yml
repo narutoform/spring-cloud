@@ -7,11 +7,26 @@ spring:
   application:
     name: application
 logging:
-  level: debug
-  cn.chinotan: debug
+  level: 
+    cn.chinotan: debug
 management:
   security:
-    enabled: false
+    enabled: false # 得加这个才能postman有权限进行访问
 
 
 # 在git仓库的文件改变后，服务器能够立即刷新，但是客户端不行
+# security.basic.enabled=true
+# security.basic.path=/admin    #针对/admin路径进行认证
+# security.user.name=admin     #认证使用的用户名
+# security.user.password=password   #认证使用的密码
+# management.security.roles=SUPERUSER
+
+# management.port=11111   #actuator暴露接口使用的端口，为了和api接口使用的端口进行分离
+# management.context-path=/admin   #actuator暴露接口的前缀
+# management.security.enabled=true   #actuator是否需要安全保证
+
+# endpoints.metrics.sensitive=false   #actuator的metrics接口是否需要安全保证
+# endpoints.metrics.enabled=true
+
+# endpoints.health.sensitive=false  #actuator的health接口是否需要安全保证
+# endpoints.health.enabled=true

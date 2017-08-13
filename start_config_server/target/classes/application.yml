@@ -3,3 +3,5 @@ server:
 spring:
   profiles:
     active: 账号密码
+    
+# 在git仓库的文件改变后，服务器能够立即刷新，但是客户端不行

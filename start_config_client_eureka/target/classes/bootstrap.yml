@@ -4,7 +4,7 @@ spring:
       discovery:
         enabled: true # 默认是false
         service-id: springCloudConfig
-      profile: dev
+      profile: dev # 可以在这里接着写profile
   application:
     name: chinotan
 eureka:

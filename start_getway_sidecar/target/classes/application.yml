@@ -12,4 +12,4 @@ sidecar:
   health-uri: http://localhost:8060/health.json
 spring:
   application:
-    name: start_getway_sidecar
+    name: start_getway_sidecar # 不加这个不行
