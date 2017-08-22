@@ -31,6 +31,8 @@
       <module fileurl="file://$PROJECT_DIR$/../user_manager_dubbo_client/user_manager_dubbo_client.iml" filepath="$PROJECT_DIR$/../user_manager_dubbo_client/user_manager_dubbo_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/../user_manager_dubbo_server/user_manager_dubbo_server.iml" filepath="$PROJECT_DIR$/../user_manager_dubbo_server/user_manager_dubbo_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../user_manager_elasticsearch/user_manager_elasticsearch.iml" filepath="$PROJECT_DIR$/../user_manager_elasticsearch/user_manager_elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user_manager_rabbirMQ_cilent/user_manager_rabbirMQ_cilent.iml" filepath="$PROJECT_DIR$/../user_manager_rabbirMQ_cilent/user_manager_rabbirMQ_cilent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user_manager_rabbirMQ_server/user_manager_rabbirMQ_server.iml" filepath="$PROJECT_DIR$/../user_manager_rabbirMQ_server/user_manager_rabbirMQ_server.iml" />
     </modules>
   </component>
 </project>

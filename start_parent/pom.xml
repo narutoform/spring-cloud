@@ -34,6 +34,8 @@
         <module>../user_manager_elasticsearch</module>
         <module>../user_manager_dubbo_server</module>
         <module>../user_manager_dubbo_client</module>
+        <module>../user_manager_rabbirMQ_server</module>
+        <module>../user_manager_rabbirMQ_cilent</module>
     </modules>
     <groupId>cn.chinotan</groupId>
     <artifactId>start_parent</artifactId>

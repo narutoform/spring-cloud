@@ -36,6 +36,8 @@
         <module name="user_manager_dubbo_search" />
         <module name="user_manager_dubbo_server" />
         <module name="user_manager_elasticsearch" />
+        <module name="user_manager_rabbirMQ_cilent" />
+        <module name="user_manager_rabbirMQ_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -72,6 +74,8 @@
       <module name="user_manager_dubbo_search" target="1.6" />
       <module name="user_manager_dubbo_server" target="1.6" />
       <module name="user_manager_elasticsearch" target="1.6" />
+      <module name="user_manager_rabbirMQ_cilent" target="1.6" />
+      <module name="user_manager_rabbirMQ_server" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
