@@ -32,12 +32,14 @@
         <module name="start_getway_sidecar" />
         <module name="start_getway_zuul" />
         <module name="user_manager" />
+        <module name="user_manager_cors" />
         <module name="user_manager_dubbo_client" />
         <module name="user_manager_dubbo_search" />
         <module name="user_manager_dubbo_server" />
         <module name="user_manager_elasticsearch" />
         <module name="user_manager_rabbirMQ_cilent" />
         <module name="user_manager_rabbirMQ_server" />
+        <module name="user_manager_xss" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -70,12 +72,14 @@
       <module name="start_getway_zuul" target="1.6" />
       <module name="start_parent" target="1.6" />
       <module name="user_manager" target="1.6" />
+      <module name="user_manager_cors" target="1.8" />
       <module name="user_manager_dubbo_client" target="1.6" />
       <module name="user_manager_dubbo_search" target="1.6" />
       <module name="user_manager_dubbo_server" target="1.6" />
       <module name="user_manager_elasticsearch" target="1.6" />
       <module name="user_manager_rabbirMQ_cilent" target="1.6" />
       <module name="user_manager_rabbirMQ_server" target="1.6" />
+      <module name="user_manager_xss" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

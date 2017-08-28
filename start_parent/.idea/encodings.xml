@@ -27,11 +27,13 @@
     <file url="file://$PROJECT_DIR$/../start_getway_zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../user_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../user_manager_cors" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../user_manager_dubbo_client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../user_manager_dubbo_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../user_manager_elasticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../user_manager_rabbirMQ_cilent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../user_manager_rabbirMQ_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../user_manager_xss" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

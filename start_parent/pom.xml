@@ -36,6 +36,8 @@
         <module>../user_manager_dubbo_client</module>
         <module>../user_manager_rabbirMQ_server</module>
         <module>../user_manager_rabbirMQ_cilent</module>
+        <module>../user_manager_cors</module>
+        <module>../user_manager_xss</module>
     </modules>
     <groupId>cn.chinotan</groupId>
     <artifactId>start_parent</artifactId>
@@ -46,6 +48,10 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.2.RELEASE</version>
     </parent>
+    
+    <properties>
+        <commons-lang3.version>3.6</commons-lang3.version>
+    </properties>
 
     <dependencyManagement>
         <dependencies>
@@ -55,6 +61,11 @@
                 <version>Dalston.SR1</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.chinotan.config.CorsConfig",
+      "name": "cn.chinotan.cors",
+      "type": "cn.chinotan.config.CorsConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.chinotan.config.CorsConfig",
+      "name": "cn.chinotan.cors.config",
+      "type": "java.util.Map<java.lang.String,cn.chinotan.config.CorsConfig.CorsRegistrationConfig>"
+    }
+  ]
+}

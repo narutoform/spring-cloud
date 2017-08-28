@@ -1,0 +1,40 @@
+server:
+  port: 9000
+spring:
+  jpa:
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    schema: classpath:schema.sql #这里的: 后不能跟空格
+    data: classpath:data.sql
+    platform: h2
+  jackson:
+    serialization: 
+      fail-on-empty-beans: false #设置FAIL_ON_EMPTY_BEANS属性，告诉Jackson空对象不要抛异常, 在使用了getOne时使用，这里可以删除；
+  application:
+    name: userAdmin
+logging:
+  level: 
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    cn.chinotan: DEBUG
+# 第二种跨域请求方法
+#endpoints:
+#  cors:
+#    allow-credentials:
+#    allowed-headers:
+#    allowed-methods: GET, POST, PUT, DELETE
+#    allowed-origins: '*'
+#    exposed-headers: 
+#    max-age: 1800
+
+# 第三种跨域请求方法
+cn.chinotan.cors.config.demo.mapping: /**
+cn.chinotan.cors.config.demo.allowCredentials:
+cn.chinotan.cors.config.demo.allowedOrigins:
+cn.chinotan.cors.config.demo.allowedMethods:
+cn.chinotan.cors.config.demo.allowedHeaders:
