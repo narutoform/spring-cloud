@@ -40,6 +40,7 @@
         <module name="user_manager_elasticsearch" />
         <module name="user_manager_rabbirMQ_cilent" />
         <module name="user_manager_rabbirMQ_server" />
+        <module name="user_manager_retry" />
         <module name="user_manager_xss" />
         <module name="user_managers_swagger2" />
       </profile>
@@ -82,6 +83,7 @@
       <module name="user_manager_elasticsearch" target="1.6" />
       <module name="user_manager_rabbirMQ_cilent" target="1.6" />
       <module name="user_manager_rabbirMQ_server" target="1.6" />
+      <module name="user_manager_retry" target="1.6" />
       <module name="user_manager_xss" target="1.6" />
       <module name="user_managers_swagger2" target="1.6" />
     </bytecodeTargetLevel>

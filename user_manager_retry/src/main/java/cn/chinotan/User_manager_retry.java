@@ -2,7 +2,7 @@ package cn.chinotan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+import org.springframework.retry.annotation.EnableRetry;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 import java.util.concurrent.Executor;
@@ -10,19 +10,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 @SpringBootApplication
-@EnableAsync
-public class User_manager_async {
+@EnableRetry
+public class User_manager_retry {
 
     public static void main(String[] args) {
-        SpringApplication.run(User_manager_async.class, args);
-    }
-    
-    // 不加也行
-    @Bean
-    public Executor executor(){
-        ExecutorService executorService = Executors.newCachedThreadPool();
-
-        return executorService;
+        SpringApplication.run(User_manager_retry.class, args);
     }
     
 }

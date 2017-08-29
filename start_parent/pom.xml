@@ -40,6 +40,7 @@
         <module>../user_manager_xss</module>
         <module>../user_managers_swagger2</module>
         <module>../user_manager_async</module>
+        <module>../user_manager_retry</module>
     </modules>
     <groupId>cn.chinotan</groupId>
     <artifactId>start_parent</artifactId>
