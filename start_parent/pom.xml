@@ -38,6 +38,7 @@
         <module>../user_manager_rabbirMQ_cilent</module>
         <module>../user_manager_cors</module>
         <module>../user_manager_xss</module>
+        <module>../user_managers_swagger2</module>
     </modules>
     <groupId>cn.chinotan</groupId>
     <artifactId>start_parent</artifactId>
@@ -51,6 +52,8 @@
     
     <properties>
         <commons-lang3.version>3.6</commons-lang3.version>
+        <springfox-swagger2.version>2.7.0</springfox-swagger2.version>
+        <lombok.version>1.16.16</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -66,6 +69,21 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${springfox-swagger2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${springfox-swagger2.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

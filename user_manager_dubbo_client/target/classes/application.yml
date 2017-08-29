@@ -1,0 +1,7 @@
+server:
+  port: 9010
+application:
+    name: userConsumer
+spring.dubbo.application.name:  userConsumer
+spring.dubbo.registry.address: zookeeper://192.168.217.135:2181
+spring.dubbo.scan: cn.chinotan.service

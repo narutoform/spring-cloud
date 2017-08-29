@@ -40,6 +40,7 @@
         <module name="user_manager_rabbirMQ_cilent" />
         <module name="user_manager_rabbirMQ_server" />
         <module name="user_manager_xss" />
+        <module name="user_managers_swagger2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -80,6 +81,7 @@
       <module name="user_manager_rabbirMQ_cilent" target="1.6" />
       <module name="user_manager_rabbirMQ_server" target="1.6" />
       <module name="user_manager_xss" target="1.6" />
+      <module name="user_managers_swagger2" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
