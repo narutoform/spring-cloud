@@ -917,7 +917,7 @@
       <workItem from="1503283735103" duration="8797000" />
       <workItem from="1503900366728" duration="20295000" />
       <workItem from="1503968920108" duration="6819000" />
-      <workItem from="1503989105250" duration="3836000" />
+      <workItem from="1503989105250" duration="3937000" />
     </task>
     <task id="LOCAL-00001" summary="springCloud 练习 父类pom：start_parent">
       <created>1502271404672</created>
@@ -938,7 +938,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214776000" />
+    <option name="totallyTimeSpent" value="214877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
