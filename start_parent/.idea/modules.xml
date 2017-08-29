@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/../start_getway_zuul/start_getway_zuul.iml" filepath="$PROJECT_DIR$/../start_getway_zuul/start_getway_zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/start_parent.iml" filepath="$PROJECT_DIR$/start_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../user_manager/user_manager.iml" filepath="$PROJECT_DIR$/../user_manager/user_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user_manager_async/user_manager_async.iml" filepath="$PROJECT_DIR$/../user_manager_async/user_manager_async.iml" />
       <module fileurl="file://$PROJECT_DIR$/../user_manager_cors/user_manager_cors.iml" filepath="$PROJECT_DIR$/../user_manager_cors/user_manager_cors.iml" />
       <module fileurl="file://$PROJECT_DIR$/../user_manager_dubbo_client/user_manager_dubbo_client.iml" filepath="$PROJECT_DIR$/../user_manager_dubbo_client/user_manager_dubbo_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/../user_manager_dubbo_server/user_manager_dubbo_server.iml" filepath="$PROJECT_DIR$/../user_manager_dubbo_server/user_manager_dubbo_server.iml" />
