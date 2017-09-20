@@ -41,6 +41,7 @@
         <module>../user_managers_swagger2</module>
         <module>../user_manager_async</module>
         <module>../user_manager_retry</module>
+        <module>../user_manager_elasticsearch_transportClient</module>
     </modules>
     <groupId>cn.chinotan</groupId>
     <artifactId>start_parent</artifactId>
