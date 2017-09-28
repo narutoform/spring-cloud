@@ -26,6 +26,8 @@
       <module fileurl="file://$PROJECT_DIR$/../start_eureka_ha/start_eureka_ha.iml" filepath="$PROJECT_DIR$/../start_eureka_ha/start_eureka_ha.iml" />
       <module fileurl="file://$PROJECT_DIR$/../start_getway_sidecar/start_getway_sidecar.iml" filepath="$PROJECT_DIR$/../start_getway_sidecar/start_getway_sidecar.iml" />
       <module fileurl="file://$PROJECT_DIR$/../start_getway_zuul/start_getway_zuul.iml" filepath="$PROJECT_DIR$/../start_getway_zuul/start_getway_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_oauth2_server/start_oauth2_server.iml" filepath="$PROJECT_DIR$/../start_oauth2_server/start_oauth2_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../start_oauth2_server_without_security/start_oauth2_server_without_security.iml" filepath="$PROJECT_DIR$/../start_oauth2_server_without_security/start_oauth2_server_without_security.iml" />
       <module fileurl="file://$PROJECT_DIR$/start_parent.iml" filepath="$PROJECT_DIR$/start_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../user_manager/user_manager.iml" filepath="$PROJECT_DIR$/../user_manager/user_manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/../user_manager_async/user_manager_async.iml" filepath="$PROJECT_DIR$/../user_manager_async/user_manager_async.iml" />

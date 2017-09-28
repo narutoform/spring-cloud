@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="start_oauth2_server_without_security:war">
+    <output-path>$PROJECT_DIR$/../start_oauth2_server_without_security/target</output-path>
+    <root id="archive" name="zetark-oauth2-server.war">
+      <element id="artifact" artifact-name="start_oauth2_server_without_security:war exploded" />
+    </root>
+  </artifact>
+</component>

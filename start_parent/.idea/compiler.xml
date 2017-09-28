@@ -31,6 +31,8 @@
         <module name="start_eureka_ha" />
         <module name="start_getway_sidecar" />
         <module name="start_getway_zuul" />
+        <module name="start_oauth2_server" />
+        <module name="start_oauth2_server_without_security" />
         <module name="user_manager" />
         <module name="user_manager_async" />
         <module name="user_manager_cors" />
@@ -74,6 +76,8 @@
       <module name="start_eureka_ha" target="1.6" />
       <module name="start_getway_sidecar" target="1.6" />
       <module name="start_getway_zuul" target="1.6" />
+      <module name="start_oauth2_server" target="1.6" />
+      <module name="start_oauth2_server_without_security" target="1.8" />
       <module name="start_parent" target="1.6" />
       <module name="user_manager" target="1.6" />
       <module name="user_manager_async" target="1.6" />
